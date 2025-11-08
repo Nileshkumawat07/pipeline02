@@ -1,5 +1,5 @@
 FROM python:3..13.7
-COPY ./ pipeline2
-WORKDIR / pipeline2
+COPY ./ pipeline02
+WORKDIR / pipeline02
 ENTRYPOINT ["python"]
-CMD ["pipeline2"]
+CMD ["pipeline02"]
